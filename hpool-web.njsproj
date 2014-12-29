@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c3b9065e-a43c-4ef8-8160-71f1f0f37cae</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>app.js</StartupFile>
+    <StartupFile>app.old.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="app.old.js" />
     <Compile Include="public\js\AdminLTE\app.js" />
     <Compile Include="public\js\AdminLTE\dashboard.js" />
     <Compile Include="public\js\AdminLTE\demo.js" />
@@ -154,7 +155,6 @@
     <Compile Include="public\js\plugins\timepicker\bootstrap-timepicker.js" />
     <Compile Include="public\js\plugins\timepicker\bootstrap-timepicker.min.js" />
     <Compile Include="routes\index.js" />
-    <Compile Include="routes\users.js" />
     <Content Include="package.json" />
     <Content Include="public\css\AdminLTE.css" />
     <Content Include="public\css\bootstrap-slider\slider.css" />
